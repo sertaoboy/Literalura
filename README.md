@@ -448,3 +448,7 @@ public class LiteraluraApplication implements CommandLineRunner {
 }
 
 ```
+
+
+- Imagens de exemplo:
+![banco de dados](imgs/exemplo1)

@@ -451,4 +451,11 @@ public class LiteraluraApplication implements CommandLineRunner {
 
 
 - Imagens de exemplo:
+
 ![banco de dados](imgs/exemplo1)
+![caso 1](imgs/case1)
+![caso 2](imgs/case2)
+![caso 3](imgs/case3)
+![caso 4](imgs/case4)
+![caso 5](imgs/case5)
+![caso 6](imgs/case6)

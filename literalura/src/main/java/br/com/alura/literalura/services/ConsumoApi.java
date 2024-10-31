@@ -11,7 +11,7 @@ public class ConsumoApi {
     public String obterDados(String endereco) {
         System.out.println("Instanciando cliente HTTP...");
         HttpClient client = HttpClient.newBuilder()
-                .followRedirects(HttpClient.Redirect.NORMAL) // Ativar o seguimento automático de redirecionamentos
+                .followRedirects(HttpClient.Redirect.NORMAL) // Ativar o seguimento automático de redirecionamentos!!!!!!
                 .build();
 
         System.out.println("Definindo requisição para " + endereco);
@@ -45,8 +45,7 @@ public class ConsumoApi {
             throw new RuntimeException("Resposta JSON vazia.");
         }
 
-        System.out.println("Json definido.");
-        System.out.println(json);
+        System.out.println("Json definido :" + json);
         return json;
     }
 }
